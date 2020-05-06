@@ -3,7 +3,8 @@
 	2. generic Graph.
 */
 #include <bits/stdc++.h> 
-using namespace std; 
+using namespace std;
+
 class DisjointSet { 
     int *rank, *parent, n; 
 
