@@ -15,7 +15,7 @@ int editDist(string str1, string str2, int m, int n)
                    editDist(str1, str2, m - 1, n - 1) // Replace 
                    ); 
 } 
-//DP table solution based on recursive approach.
+//DP table solution based on above naive recursive approach.
 int editDistDP(string str1, string str2, int m, int n) 
 { 
     int dp[m + 1][n + 1]; 
