@@ -36,3 +36,6 @@ int editDistDP(string str1, string str2, int m, int n)
     } 
     return dp[m][n]; 
 } 
+//TC O(m x n) Space Complexity: O(m x n)
+//IMPROVEMENT:: SC can be improved to O(m or n) since only previous row is required to construct current row. 
+//Hence Dp[2][n+1] (or Dp[m+1][2]) will serve the purpose too. 
