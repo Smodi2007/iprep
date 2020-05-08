@@ -4,4 +4,6 @@
 1: Logicwise solved, Theoretically.
 2: Solved: coded on paper.
 3: Solved: coded on IDE: 1: coded but buggy.
-		 : coded on IDE: 2: coded and running properly.
+		coded on IDE: 2: coded and running properly.
+		 
+Note: 3- 2 Might not be written in comments sometime, if the code has passed Accepted state at LC.
