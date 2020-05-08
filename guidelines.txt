@@ -3,5 +3,5 @@
 0: Problem Read.
 1: Logicwise solved, Theoretically.
 2: Solved: coded on paper.
-3: Solved: coded on IDE-1 : coded but buggy.
-		 : coded on IDE-2 : coded and running properly.
+3: Solved: coded on IDE: 1: coded but buggy.
+		 : coded on IDE: 2: coded and running properly.
