@@ -49,4 +49,4 @@ string multiply(string num1, string num2)
   
     return s; 
 } 
-//TC O(l1 X l2)  SC O(l1 + l2)
+//TC O(len1 X len2)  SC O(len1 + len2)
