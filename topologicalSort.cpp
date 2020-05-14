@@ -26,7 +26,8 @@ void Graph::addEdge(int u, int v) {
 
 // The function to do Topological Sort. 
 void Graph::topologicalSort() { 
-	
+	// Create a vector to store indegrees of all 
+	// vertices. Initialize all indegrees as 0. 
 	vector<int> in_degree(V, 0); 
 
 	// Traverse adjacency lists to fill indegrees of 
