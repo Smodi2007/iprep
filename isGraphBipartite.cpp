@@ -1,13 +1,14 @@
 // Code copied from GFG verbatim
 // https://www.geeksforgeeks.org/bipartite-graph/
 // C++ program to find out whether a 
-// given graph is Bipartite or not BFS Version
+// given graph is Bipartite or not.
+//BFS Version
 #include <iostream> 
 #include <queue> 
 #define V 4 
 
 using namespace std; 
-//using BFS 
+
 bool isBipartite(int G[][V], int src) {
 	int colorArr[V]; 
 	for (int i = 0; i < V; ++i) 
